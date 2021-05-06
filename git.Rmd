@@ -9,6 +9,8 @@ output:
 
 # Página inicial
 
+![](1.jpg)
+
 # Quem somos
 
 # R Markdown
@@ -30,4 +32,11 @@ output:
   flexdashboard::flex_dashboard:
   vertical_layout: scroll
 ```
+
+
+aba1 {data-navmenu="Página X"}
+===
+
+aba2 {data-navmenu="Página X"}
+===
 
