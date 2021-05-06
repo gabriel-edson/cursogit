@@ -1,0 +1,33 @@
+---
+title: "Curso Github"
+author: "Gabriel Edson Sousa da Silva"
+date: "06/05/2021"
+output:
+  flexdashboard::flex_dashboard:
+  vertical_layout: scroll
+---
+
+# Página inicial
+
+# Quem somos
+
+# R Markdown
+
+# Github
+
+# Flexdashboard
+
+Painéis interativos fáceis para R
+
+Use R Markdown para publicar um grupo de visualizações de dados relacionados como um painel.
+
+*Passo 1:* Instalar o pacote 'install.package("flexdashboard")'
+
+*Passo 2:* Trocar o output para
+
+```{r, eval=FALSE, echo=TRUE}
+output:
+  flexdashboard::flex_dashboard:
+  vertical_layout: scroll
+```
+
